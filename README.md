@@ -1,4 +1,4 @@
 #
 
-https://vmarshirov.github.io/index/index.html
+https://vmarshirov.github.io/index
 
