@@ -1,2 +1,1 @@
-### См.
-### https://vmarshirov.github.io/index
+### См.  https://vmarshirov.github.io/index
