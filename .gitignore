@@ -11,3 +11,5 @@ id_rsa.pub
 /*/__pycache__/*
 pull.sh
 push.sh
+push.txt
+
