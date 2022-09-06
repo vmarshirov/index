@@ -9,9 +9,7 @@ https://events.webinar.ru/20986780/948267216
 
 #### Основы web-технологий. При проблемах с  webinar.ru
 https://zoom.us/j/2279125526?pwd=OEUzb3d5OWlGbjU0d3dRTll0YXc1dz09
-
 Идентификатор: 227 912 5526 
-
 Код доступа: Ua73KL
 
 
