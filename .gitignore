@@ -3,6 +3,7 @@
 /venv/*
 /.local/*
 /.cache/*
+/files_Basics-of-web-technologies/*.xlsx
 .viminfo
 .bash_history
 id_rsa
