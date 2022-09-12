@@ -18,3 +18,8 @@ https://zoom.us/j/2279125526?pwd=OEUzb3d5OWlGbjU0d3dRTll0YXc1dz09
 
 ## Ссылка на практические занятия Шадриной Е.В.: 
 ### https://github.com/evshadrina/
+
+
+## Ссылка на практические занятия Осиповой А.И.: 
+### https://github.com/OsipovaA/OsipovaA
+
