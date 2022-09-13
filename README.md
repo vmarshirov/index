@@ -11,11 +11,6 @@
 https://zoom.us/j/2279125526?pwd=OEUzb3d5OWlGbjU0d3dRTll0YXc1dz09
 Идентификатор: 227 912 5526 Код доступа: Ua73KL
 
-### См.  https://vmarshirov.github.io/index
-
-
-
-
 ## Ссылка на практические занятия Шадриной Е.В.: 
 ### https://github.com/evshadrina/
 
@@ -23,3 +18,6 @@ https://zoom.us/j/2279125526?pwd=OEUzb3d5OWlGbjU0d3dRTll0YXc1dz09
 ## Ссылка на практические занятия Осиповой А.И.: 
 ### https://github.com/OsipovaA/OsipovaA
 
+## -
+## Начальная страница дисциплины:
+### https://vmarshirov.github.io/index
