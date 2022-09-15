@@ -14,12 +14,6 @@
 https://zoom.us/j/2279125526?pwd=OEUzb3d5OWlGbjU0d3dRTll0YXc1dz09
 Идентификатор: 227 912 5526 Код доступа: Ua73KL
 
-## Ссылка на семинары Шадриной Е.В.: 
-### https://github.com/evshadrina/
-
-
-## Ссылка на семинары Осиповой А.И.: 
-### https://github.com/OsipovaA/OsipovaA
 
 ## -
 ## Начальная страница дисциплины:
