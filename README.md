@@ -8,7 +8,3 @@
 ## Ссылка на материалы дисциплины 
 ### https://github.com/vmarshirov/g06u28
 
-
-## Ссылка на полезные материалы 
-### https://vmarshirov.github.io/index
-
