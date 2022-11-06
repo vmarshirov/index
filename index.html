@@ -3,28 +3,23 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
     <!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
               integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">-->
     <link href="./css/bootstrap.css" rel="stylesheet">
-    <style>
-        h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
-            margin-top: 1.5rem;
-        }
-
-    </style>
     <title>Обучающий сайт (GitHub)</title>
 </head>
 
 <body>
 
 <div class="container">
+
     <!-- Заголовок страницы-->
     <div class="card card-header">
         ...
     </div>
 
-    <div class="card text-center">
+    <div class="card">
         <!-- Единый для всех страниц навигационный фрагмент (копировать на все страницы вручную)-->
         <div class="card-header">
             <ul class="nav nav-tabs card-header-tabs">
@@ -46,9 +41,9 @@
         <div class="card-body text-start">
             <div>
                 <h5>ТЕКУЩЕЕ</h5>
-                +7 908 1605316 - телефон для решения срочных проблем
-                <br>https://zoom.us/j/2279125526?pwd=OEUzb3d5OWlGbjU0d3dRTll0YXc1dz09
-                <br>Идентификатор: 227 912 5526 Код доступа: Ua73KL
+                <p>
+                    Phone, Viber +7 908 1605316 - для решения срочных проблем
+                </p>
             </div>
 
             <!--            <p>
@@ -58,13 +53,11 @@
                         </p>-->
 
             <div>
-                <h6>2022. Основы web-технологий</h6>
-                <div>
-                    <p> Ссылки на лекции, семинары и др. материалы дисциплины: <a
-                            href="https://github.com/vmarshirov/g06u28" autofocus>https://github.com/vmarshirov/g06u28</a>
-                    </p>
+                <h5>2022. Основы web-технологий</h5>
+                <p> Ссылки на лекции, семинары и др. материалы дисциплины:
+                    <a autofocus href="https://github.com/vmarshirov/g06u28">https://github.com/vmarshirov/g06u28</a>
+                </p>
             </div>
-
 
             <div>
                 <h5>РЕКОМЕНДУЕМОЕ ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ ...</h5>
@@ -98,7 +91,6 @@
                     <br>https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
                     <br>du -skh * | sort -g -объем занятого домашнего или другого каталога и его разделов
                     <br>df -h - состояние сервера
-                    <br>edquota -g www-data - проверить квоту на группу (если проблемы с записью - quotacheck -vagum -f)
                     <br>apt-cache search deb*
                     <br>ip -s addr
                 </p>
@@ -126,9 +118,10 @@
 
             <div>
                 <h6>Аренда виртуального сервера</h6>
-                https://www.reg.ru/vps/cloud/
-                <br>https://www.reg.ru/user/account/#/
-                <br>
+                <p>
+                    https://www.reg.ru/vps/cloud/
+                    <br>https://www.reg.ru/user/account/#/
+                </p>
             </div>
 
             <!--            <div>
@@ -142,95 +135,88 @@
                         </div>-->
 
             <div>
-                <!--                <h5>ВАЖНО ...</h5>
-                                <p>1. Сервер предназначен для обучения. Часто выполняются опасные действия и ваши данные могут быть
-                                    потеряны  и поэтому, после окончания сеанса работы, следует сохранять данные на внешнем носителе.
-                                </p>
-                                <p>2. Накануне экзамена каждому студенту обязательно проверить оценку в ведомости. При необходимости
-                                    прийти  на экзамен. Корректировка оценок возможна только до завершения очередного практического занятия.
-                                </p>
-                                <p>3. Каждому студенту выделяется до 15 MB
-                                    <br>При превышении установленного лимита, все данные из домашнего раздела удаляю без предупреждения.
-                                    <br>du -skh * | sort -g -объем занятого домашнего или другого каталога и его разделов
-                                    <br>df -h - состояние сервера
-                                    <br>edquota -g www-data - проверить квоту на группу (если проблемы с записью - quotacheck -vagum -f)
-                                    <br>less /var/log/apache2/error.log - лог ошибок - для отладки
-                                    <br>apt-cache search deb*
-                                    <br>ip -s addr
-                                </p>
-                            </div>-->
+                <h5>ПОЛЕЗНОЕ ...</h5>
 
-                <div>
-                    <h5>ПОДСКАЗКИ ПО ЛОГИНАМ, ПАРОЛЯМ АДРЕСАМ. ДОМЕНЫ, ГРУППЫ, ПОРТЫ ...</h5>
-
-                    <p>185.182.111.214 - IP - адрес сервера, ssh(putty)- порт 22. Для ftp(filezilla) - 21
-                        <br>du -skh * | sort -g -объем занятого домашнего или другого каталога и его разделов
-                        <br>df -h - состояние сервера
-                        <br>edquota -g www-data - проверить квоту на группу (если проблемы с записью - quotacheck -vagum
-                        -f)
-                        <br>less /var/log/apache2/error.log - лог ошибок - для отладки
-                        <br>apt-cache search deb*
-                        <br>ip -s addr
-                        <br>passwd g05u00 abc123- пример команды для изменения пароля
-                        <br>http://185.182.111.214:80 - (g01u00) начальная - https://github.com/g00u00/index
-                        <br>http://185.182.111.214:8001 -:8005 - (g01u01-g01u05)
-                        <br>http://185.182.111.214:7300 - http://185.182.111.214:7399 - (g03u00-g03u99)
-                        <br>http://185.182.111.214:7400 - http://185.182.111.214:7499 - (g04u00-g04u99)
-                        <br>http://185.182.111.214:7600 - тестирование (g06u00)
-                        <br>http://185.182.111.214:7609 - Марширов В.В. (g06u09)
-                        <br>http://185.182.111.214:7610 - Шадрина Е.В. (g06u10)
-                        <br>http://185.182.111.214:7611 - Осипова А.И. (g06u11)
-                        <br>http://185.182.111.214:7627 - swot (g06u27)
-                        <br>http://185.182.111.214:7628 - html, css, js
-                        <br>http://185.182.111.214:7629 - mysql,cgi
-                        <br>http://185.182.111.214:7630 - bash
-                        <br>http://185.182.111.214:7631 - gcc, cpp, cpp_cgi ( )
-                        <br>http://185.182.111.214:7632 - разработка веб-приложений (g06u32)
-                        <br>http://185.182.111.214:7633 - основы программирования Python (g06u33)
-                        <br>http://185.182.111.214:7634 - Django (g06u34)
-                        <br>http://185.182.111.214:7635 - React(g06u35)
-                        <br>http://185.182.111.214:7640 - ndExp (g06u40)
-                        <br>
-                        <br>185.182.111.214
-                    </p>
-                </div>
-
-
-<!--
-
-                <div>
-                    <h5><a id="testing">ТЕСТИРОВАНИЕ</a></h5>
-                        <p><b>Студентам</b>:
-                        <br>1. Запустить тест с соответствующей темой
-                        <br><a href="http://185.182.111.214:7600/public_html/testing/" target="_blank">http://185.182.111.214:7600/public_html/testing/</a>
-                        <br>2. Запустить скрипт, соответствующий номеру потока(группы) (логин:notroot; пароль:notroot)
-                        <br><a href="http://185.182.111.214:7610/cgi-bin/login_ip.py" target="_blank">http://185.182.111.214:7610/cgi-bin/login_ip.py</a> - группа 01, группа 02, группа 03
-                        <br><a href="http://185.182.111.214:7609/cgi-bin/login_ip.py" target="_blank">http://185.182.111.214:7609/cgi-bin/login_ip.py</a> - группа 04, группа 05, группа 06
-                        <br><a href="http://185.182.111.214:7611/cgi-bin/login_ip.py" target="_blank">http://185.182.111.214:7611/cgi-bin/login_ip.py</a> - группа 07, группа 08
-                        <br> и, используя этот скрипт, отправить свои данные преподавателю
-                    </p>
-
-                    <p><b>Преподавателям</b> (g06u09-g06u11):
-                        <br>1. Проверить и скопировать логины и IP студентов из <br>~/tmp/login_ip.txt в <br>~/public_html/login_ip.txt
-                        <br>Обратить внимание (macOS-убрать пробел в конце строки ,LF, пустые строки в начале и в конце
-                        файла
-                        ~/public_html/login_ip.txt)
-                        <br>2. Скриптом<br><a href="http://185.182.111.214:7600/cgi-bin/login_ip.sh" target="_blank">http://185.182.111.214:7600/cgi-bin/login_ip.sh</a>
-                        - дозаписать студентов в общий список и проверить
-                        &lt;!&ndash;                <br><a href="http://185.182.111.214:7600/cgi-bin/results.sh" target="_blank">http://185.182.111.214:7600/cgi-bin/results.sh</a> - списки студентов выполняющих тестирование&ndash;&gt;
-                    </p>
-                </div>
--->
+                <p>du -skh * | sort -g -объем занятого домашнего или другого каталога и его разделов
+                    <br>df -h - состояние сервера
+                    <br>less /var/log/apache2/error.log - лог ошибок - для отладки
+                    <br>apt-cache search deb*
+                    <br>ip -s addr
+                </p>
             </div>
 
-            <!--Подвал страницы-->
-            <div class="card-footer">
-                <small class="text-muted">...</small>
+            <div>
+                <h5>ПОДСКАЗКИ ПО ЛОГИНАМ, ПАРОЛЯМ АДРЕСАМ. ДОМЕНЫ, ГРУППЫ, ПОРТЫ ...</h5>
+
+                <p>185.182.111.214 - IP - адрес сервера, ssh(putty)- порт 22. Для ftp(filezilla) - 21
+                    <br>du -skh * | sort -g -объем занятого домашнего или другого каталога и его разделов
+                    <br>df -h - состояние сервера
+                    <br>edquota -g www-data - проверить квоту на группу (если проблемы с записью - quotacheck
+                    -vagum
+                    -f)
+                    <br>less /var/log/apache2/error.log - лог ошибок - для отладки
+                    <br>apt-cache search deb*
+                    <br>ip -s addr
+                    <br>passwd g05u00 abc123- пример команды для изменения пароля
+                    <br>http://185.182.111.214:80 - (g01u00) начальная - https://github.com/g00u00/index
+                    <br>http://185.182.111.214:8001 -:8005 - (g01u01-g01u05)
+                    <br>http://185.182.111.214:7300 - http://185.182.111.214:7399 - (g03u00-g03u99)
+                    <br>http://185.182.111.214:7400 - http://185.182.111.214:7499 - (g04u00-g04u99)
+                    <br>http://185.182.111.214:7600 - тестирование (g06u00)
+                    <br>http://185.182.111.214:7609 - Марширов В.В. (g06u09)
+                    <br>http://185.182.111.214:7610 - Шадрина Е.В. (g06u10)
+                    <br>http://185.182.111.214:7611 - Осипова А.И. (g06u11)
+                    <br>http://185.182.111.214:7627 - swot (g06u27)
+                    <br>http://185.182.111.214:7628 - html, css, js
+                    <br>http://185.182.111.214:7629 - mysql,cgi
+                    <br>http://185.182.111.214:7630 - bash
+                    <br>http://185.182.111.214:7631 - gcc, cpp, cpp_cgi ( )
+                    <br>http://185.182.111.214:7632 - разработка веб-приложений (g06u32)
+                    <br>http://185.182.111.214:7633 - основы программирования Python (g06u33)
+                    <br>http://185.182.111.214:7634 - Django (g06u34)
+                    <br>http://185.182.111.214:7635 - React(g06u35)
+                    <br>http://185.182.111.214:7640 - ndExp (g06u40)
+
+                </p>
             </div>
+
+
+            <!--
+
+                            <div>
+                                <h5><a id="testing">ТЕСТИРОВАНИЕ</a></h5>
+                                    <p><b>Студентам</b>:
+                                    <br>1. Запустить тест с соответствующей темой
+                                    <br><a href="http://185.182.111.214:7600/public_html/testing/" target="_blank">http://185.182.111.214:7600/public_html/testing/</a>
+                                    <br>2. Запустить скрипт, соответствующий номеру потока(группы) (логин:notroot; пароль:notroot)
+                                    <br><a href="http://185.182.111.214:7610/cgi-bin/login_ip.py" target="_blank">http://185.182.111.214:7610/cgi-bin/login_ip.py</a> - группа 01, группа 02, группа 03
+                                    <br><a href="http://185.182.111.214:7609/cgi-bin/login_ip.py" target="_blank">http://185.182.111.214:7609/cgi-bin/login_ip.py</a> - группа 04, группа 05, группа 06
+                                    <br><a href="http://185.182.111.214:7611/cgi-bin/login_ip.py" target="_blank">http://185.182.111.214:7611/cgi-bin/login_ip.py</a> - группа 07, группа 08
+                                    <br> и, используя этот скрипт, отправить свои данные преподавателю
+                                </p>
+
+                                <p><b>Преподавателям</b> (g06u09-g06u11):
+                                    <br>1. Проверить и скопировать логины и IP студентов из <br>~/tmp/login_ip.txt в <br>~/public_html/login_ip.txt
+                                    <br>Обратить внимание (macOS-убрать пробел в конце строки ,LF, пустые строки в начале и в конце
+                                    файла
+                                    ~/public_html/login_ip.txt)
+                                    <br>2. Скриптом<br><a href="http://185.182.111.214:7600/cgi-bin/login_ip.sh" target="_blank">http://185.182.111.214:7600/cgi-bin/login_ip.sh</a>
+                                    - дозаписать студентов в общий список и проверить
+                                    &lt;!&ndash;                <br><a href="http://185.182.111.214:7600/cgi-bin/results.sh" target="_blank">http://185.182.111.214:7600/cgi-bin/results.sh</a> - списки студентов выполняющих тестирование&ndash;&gt;
+                                </p>
+                            </div>
+            -->
+
         </div>
+        <!--Подвал страницы-->
+        <div class="card card-footer">
+            ...
+        </div>
+
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-            crossorigin="anonymous"></script>
+</div>
+<script crossorigin="anonymous"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
