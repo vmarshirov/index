@@ -1,7 +1,7 @@
 
 
 #### 21БИ. Защиты практики (online) 2023-05-10. 18:10. 
-Ссылка: Будет здесь
+Ссылка: https://telemost.yandex.ru/j/57972635003259
 
 #### 2023. Разработка web-приложений
 Ссылка на практические, семинары и экзамены дисциплины: https://github.com/vmarshirov/WebApplicationsDevelopment
